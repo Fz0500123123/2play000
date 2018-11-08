@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
+const prefix = "2";
 /////////////////////////
 ////////////////////////
 
@@ -251,7 +251,7 @@ function play(guild, song) {
 
 
 client.on('message', message => {
-    if (message.content === '1help') {
+    if (message.content === '2help') {
         let helpEmbed = new Discord.RichEmbed()
         .addField('play', 'لتشغيل اغنية')
         .addField('join', 'دخول رومك الصوتي')
